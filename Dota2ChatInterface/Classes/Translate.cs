@@ -37,7 +37,7 @@ namespace Dota2ChatInterface
     class Translate
     {
         // The url to request.
-        private static String requestURL = "http://translate.google.com/translate_a/single?client=t&sl=&tl="; // Has to be appended with &hl=LANGUAGE, &tl=LANGUAGE, and &text=STRING"
+        private static String requestURL = "http://translate.google.com/translate_a/single?client=t&sl=auto"; // Has to be appended with &hl=LANGUAGE, &tl=LANGUAGE, and &text=STRING"
 
         // Translates the specified string using an un-official Google Translate API.
         public static String TranslateString(String str)
